@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// 配列の要素数をコンパイル時ではなく、実行時に指定する方法
 int main(void)
 {
   int na;
