@@ -3,11 +3,7 @@
 
 #define ___IntStack
 
-typedef struct {
-  int max;
-  int ptr;
-  int *stk;
-} IntStack;
+
 
 int Initialize(IntStack *s, int max)
 {
