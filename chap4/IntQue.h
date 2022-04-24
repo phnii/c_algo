@@ -31,6 +31,6 @@ int Search(const IntQueue *q, int x);
 
 void Print(const IntQueue *q);
 
-void Terminate(const IntQueue *q)
+void Terminate(IntQueue *q);
 
 #endif
