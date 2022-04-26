@@ -17,7 +17,8 @@ void partition(int a[], int n)
       pl++;
       pr--;
     }
-  } while (pl <= pr);
+  } while (pl <= pr); // plとprがすれ違ったところで分割完了
+  // この時点で
 
   printf("枢軸の値は%dです\n", x);
 
