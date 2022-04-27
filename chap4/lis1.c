@@ -74,8 +74,8 @@ int Search(const IntStack *s, int x)
     if (s->stk[i] == x) {
       return i;
     }
-    return -1;
   }
+  return -1;
 }
 
 void Print(const IntStack *s )
