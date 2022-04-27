@@ -13,6 +13,8 @@ void counting(int a[], int n, int max)
   for (int i = 1; i <= max; i++)
     f[i] += f[i - 1];
   for (int i = n - 1; i >= 0; i--)
+    // a[i]の前には要素がf[a[i]] - 1こある
+    // よってa[i]はf[a[i]] - 1番目に入る
     b[--f[a[i]]] = a[i];
   for (int i = 0; i < n; i++)
     a[i] = b[i];
